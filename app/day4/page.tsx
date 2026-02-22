@@ -17,12 +17,12 @@ export const metadata = {
  * - we can not use Both static and dynamic metadata in same component 
  *  */
 
-export const generateMetadata = async ({ param }) => {
-    const id = await param.id
-    return {
-        title: "Learing Metadata Daynamic" + id,
-    }
-}
+// export const generateMetadata = async ({ param }) => {
+//     const id = await param.id
+//     return {
+//         title: "Learing Metadata Daynamic" + id,
+//     }
+// }
 
 
 const MataData = () => {
