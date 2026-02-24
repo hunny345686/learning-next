@@ -1,8 +1,8 @@
 
 // import { redirect, useRouter } from "next/navigation"
-const genrateRondomNo = (count: number) => {
-    return Math.floor(Math.random() * count)
-}
+// const genrateRondomNo = (count: number) => {
+//     return Math.floor(Math.random() * count)
+// }
 const Day6 = async () => {
     // const router = useRouter()
 
@@ -13,17 +13,17 @@ const Day6 = async () => {
 
     // }
 
-    await new Promise((res) => {
-        setTimeout(() => {
-            res("Dely")
-        }, 2000);
-    })
+    // await new Promise((res) => {
+    //     setTimeout(() => {
+    //         res("Dely")
+    //     }, 2000);
+    // })
 
-    const gatUniquNo = genrateRondomNo(2)
+    // const gatUniquNo = genrateRondomNo(2)
 
-    if (gatUniquNo === 1) {
-        throw new Error("Errro in you Component")
-    }
+    // if (gatUniquNo === 1) {
+    //     throw new Error("Errro in you Component")
+    // }
 
 
     return (
